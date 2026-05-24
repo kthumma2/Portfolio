@@ -3,6 +3,8 @@ import { FadeIn } from './ui/FadeIn';
 import { Magnet } from './ui/Magnet';
 import { ContactButton } from './ui/ContactButton';
 
+const profileImg = `${import.meta.env.BASE_URL}assets/profile.png`;
+
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
@@ -103,7 +105,7 @@ function ProfilePortrait() {
             }}
           >
             <img
-              src="/assets/profile.png"
+              src={profileImg}
               alt="Kaushik Thumma — Software Engineer"
               loading="eager"
               style={{
