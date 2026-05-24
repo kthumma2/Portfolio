@@ -4,14 +4,10 @@ Personal portfolio website for Kaushik Thumma, Software Engineer.
 
 ## Deploy to GitHub Pages (Free Hosting)
 
-### Step 1 — Create a GitHub repository
+Your repo is named **Portfolio**, so your live URL will be:
+**`https://kthumma2.github.io/Portfolio`**
 
-1. Go to [github.com/new](https://github.com/new)
-2. Name it **`kthumma2.github.io`** (replace `kthumma2` with your GitHub username if different)
-3. Set it to **Public**
-4. Click **Create repository**
-
-### Step 2 — Push these files
+### Step 1 — Push these files
 
 Open a terminal in this folder and run:
 
@@ -20,11 +16,11 @@ git init
 git add .
 git commit -m "Initial portfolio"
 git branch -M main
-git remote add origin https://github.com/kthumma2/kthumma2.github.io.git
+git remote add origin https://github.com/kthumma2/Portfolio.git
 git push -u origin main
 ```
 
-### Step 3 — Enable GitHub Pages
+### Step 2 — Enable GitHub Pages
 
 1. Go to your repo on GitHub → **Settings** → **Pages**
 2. Under **Source**, select **Deploy from a branch**
@@ -32,14 +28,14 @@ git push -u origin main
 4. Click **Save**
 
 Your site will be live at:
-**`https://kthumma2.github.io`** (usually within 1–2 minutes)
+**`https://kthumma2.github.io/Portfolio`** (usually within 1–2 minutes)
 
 ---
 
 ## Share on LinkedIn
 
 Add to your LinkedIn profile:
-- **Website** field: `https://kthumma2.github.io`
+- **Website** field: `https://kthumma2.github.io/Portfolio`
 - **Featured** section: Share it as a link with caption "My Portfolio"
 
 ---
